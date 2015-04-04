@@ -13,6 +13,7 @@
 		E8C258C71B0B43B4004A262D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8C258C61B0B43B4004A262D /* Images.xcassets */; };
 		E8C258CA1B0B43B4004A262D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8C258C81B0B43B4004A262D /* LaunchScreen.xib */; };
 		E8C258D61B0B43B4004A262D /* SDevFlatColorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C258D51B0B43B4004A262D /* SDevFlatColorsTests.swift */; };
+		E8C258E11B0B43E7004A262D /* SDevFlatColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C258E01B0B43E7004A262D /* SDevFlatColors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		E8C258CF1B0B43B4004A262D /* SDevFlatColorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDevFlatColorsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8C258D41B0B43B4004A262D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8C258D51B0B43B4004A262D /* SDevFlatColorsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDevFlatColorsTests.swift; sourceTree = "<group>"; };
+		E8C258E01B0B43E7004A262D /* SDevFlatColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDevFlatColors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		E8C258BC1B0B43B4004A262D /* SDevFlatColors */ = {
 			isa = PBXGroup;
 			children = (
+				E8C258DF1B0B43C3004A262D /* Classes */,
 				E8C258BF1B0B43B4004A262D /* AppDelegate.swift */,
 				E8C258C11B0B43B4004A262D /* ViewController.swift */,
 				E8C258C31B0B43B4004A262D /* Main.storyboard */,
@@ -110,6 +113,14 @@
 				E8C258D41B0B43B4004A262D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E8C258DF1B0B43C3004A262D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E8C258E01B0B43E7004A262D /* SDevFlatColors.swift */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8C258C21B0B43B4004A262D /* ViewController.swift in Sources */,
+				E8C258E11B0B43E7004A262D /* SDevFlatColors.swift in Sources */,
 				E8C258C01B0B43B4004A262D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
