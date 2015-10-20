@@ -251,7 +251,7 @@ var colors: Dictionary<FlatColors, UInt> = [
 
 public extension UIColor {
     class func flat(color: FlatColors) -> UIColor {
-        var selected: UInt = UInt(colors[color]!)
+        let selected: UInt = UInt(colors[color]!)
         return selected.convertToUIColor()
     }
 }
